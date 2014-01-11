@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-$version = "0.3";
+$version = "0.1";
 
 use LWP;
 use Path::Class qw/file/;
