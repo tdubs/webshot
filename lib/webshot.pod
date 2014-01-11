@@ -1,0 +1,37 @@
+d1 webshot
+
+webshot - A simple web resource and URL screenshot tool
+
+=head1 SYNOPSIS
+
+webshot -i input.txt -t "Title of Scan"
+
+=head1 DESCRIPTION
+
+webshot takes screenshots of a list of specified target URLs.
+Performs this by loading target URLs in browser and then taking screenshot
+of entire desktop. Thus you can't be performing other tasks on the same system concurrently.
+
+=head1 OPTION
+
+Required Command Line Options
+  -i infile
+  Specify newline delimited input file
+
+  -t Title in Output
+  Give title to the scan, this will be displayed in the HTML output
+
+Optional Command Line Options
+  -u Define User-Agent
+  Define a custom useragent sent during LWP call, and not within the browser
+
+
+=head1 AUTHOR
+
+Tyler Wrightson, tw@leetsys.com
+
+=head1 COPYRIGHT
+
+Will add this later
+
+

@@ -1,0 +1,30 @@
+
+add ability to specify browser
+add option to close each tab before opening a new one
+add output log file to save stdout to log file and use defined name and .log extension
+
+Add number of total Host success and failure in head of sections
+Fix tables to just include 'EXT' link to the right of each host to make the table look cleaner
+add loop number to close chrome
+
+add ability to specify different browser
+
+fix - check to see if final URI is https to grab ssl cert info
+fix - change output image name to account for full url
+
+## 
+## v.03 added support for handling errors
+## v.03 added failed hosts table at bottom of page
+##
+## Add support for non standard ports
+## Change lwtimeout to user configured browser timeout
+## Configure user agent from command line
+## After certain number of pages opened pause and wait for review, or
+## open addditional tabs in new window
+## Add alternate output to only thumbnail page
+## Add request type (GET, POST, HEAD)
+## Add grabbing of robots and opening of links
+## Add if debug function for printing use -v switch
+##
+
+
